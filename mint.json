@@ -1,0 +1,71 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Investigating Sentient Traits Through Experimental Prototyping Docs",
+  "logo": {
+    "dark": "/logo/sentient.png",
+    "light": "/logo/sentient.png"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#4795ff",
+    "light": "#2581fe",
+    "dark": "#4795ff",
+    "anchors": {
+      "from": "#2581fe",
+      "to": "#4795ff"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:zlatimirpetrov23@gmail.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Website",
+    "url": "https://sentient-aiep.xyz"
+  },
+  "tabs": [
+    {
+      "name": "Пълна документация",
+      "url": "api-reference"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "За проекта",
+      "icon": "book-open-cover",
+      "url": "https://docs.sentient-aiep.xyz"
+    },
+    {
+      "name": "Community",
+      "icon": "discord",
+      "url": "https://discord.gg/wte678Pc"
+    },
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://discord.gg/wte678Pc"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Важно",
+      "pages": [
+        "introduction",
+        "quickstart"
+      ]
+    },
+    {
+      "group": "Документация за проекта",
+      "pages": [
+        "api-reference/introduction"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/",
+    "github": "https://github.com/petroff69",
+    "linkedin": "https://www.linkedin.com/in/zlatimir-petrov-1b78792a4/"
+  }
+}
