@@ -1,71 +1,91 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Investigating Sentient Traits Through Experimental Prototyping Docs",
+  "name": "Starter Kit",
   "logo": {
-    "dark": "/logo/sentient.png",
-    "light": "/logo/sentient.png"
+    "dark": "/logo/dark.ico",
+    "light": "/logo/light.ico"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "colors": {
-    "primary": "#4795ff",
-    "light": "#2581fe",
-    "dark": "#4795ff",
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
     "anchors": {
-      "from": "#2581fe",
-      "to": "#4795ff"
+      "from": "#0D9373",
+      "to": "#07C983"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:zlatimirpetrov23@gmail.com"
+      "url": "mailto:hi@mintlify.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Website",
-    "url": "https://sentient-aiep.xyz"
+    "name": "Dashboard",
+    "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
     {
-      "name": "Пълна документация",
+      "name": "API Reference",
       "url": "api-reference"
     }
   ],
   "anchors": [
     {
-      "name": "За проекта",
+      "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://docs.sentient-aiep.xyz"
+      "url": "https://mintlify.com/docs"
     },
     {
       "name": "Community",
-      "icon": "discord",
-      "url": "https://discord.gg/wte678Pc"
+      "icon": "slack",
+      "url": "https://mintlify.com/community"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://discord.gg/wte678Pc"
+      "url": "https://mintlify.com/blog"
     }
   ],
   "navigation": [
     {
-      "group": "Важно",
+      "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart"
+        "quickstart",
+        "development"
       ]
     },
     {
-      "group": "Документация за проекта",
+      "group": "Essentials",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/settings",
+        "essentials/navigation",
+        "essentials/reusable-snippets"
+      ]
+    },
+    {
+      "group": "API Documentation",
       "pages": [
         "api-reference/introduction"
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/",
-    "github": "https://github.com/petroff69",
-    "linkedin": "https://www.linkedin.com/in/zlatimir-petrov-1b78792a4/"
+    "x": "https://x.com/mintlify",
+    "github": "https://github.com/mintlify",
+    "linkedin": "https://linkedin.com/company/mintlify"
   }
 }
